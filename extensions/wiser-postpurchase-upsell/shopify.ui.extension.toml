@@ -1,0 +1,17 @@
+type = "checkout_post_purchase"
+name = "Wiser Checkout Extension"
+
+extension_points = [
+  'Checkout::PostPurchase::Render',
+  'Checkout::PostPurchase::Render'
+]
+[capabilities]
+network_access = true
+block_progress = true
+api_access = true
+# [[metafields]]
+# namespace = "my-namespace"
+# key = "my-key"
+# [[metafields]]
+# namespace = "my-namespace"
+# key = "my-key-2"
